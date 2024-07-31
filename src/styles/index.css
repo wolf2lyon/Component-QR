@@ -1,0 +1,52 @@
+:root {
+    --color-slate-300: hsl(212, 45%, 89%);  /* Azul */
+    --color-slate-500: hsl(216, 15%, 48%); /* Verde */
+    --color-slate-900: hsl(218, 44%, 22%);     /* Rojo */    /* Gris oscuro */
+    --color-white: hsl(0, 0%, 100%)    /* Gris claro */
+  }
+
+
+body{
+  background-color: var(--color-slate-300);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+  height: 100vh;
+  margin: 0;
+
+}
+
+.card-container-qr{
+    width: 20rem;
+    height: 30.9375rem;
+    background-color: var(--color-white);
+    border: 1px solid transparent; /* Previene el colapso de márgenes */
+    border-radius: 0.5rem;
+    display: block;
+    margin: 0 auto;
+}
+.card-container-qr img{
+    width: 17.8125rem;
+    height: 17.8125rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+.card-container-qr h1{
+    color: var(--color-slate-900);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1.9375rem;
+}
+.card-container-qr p{
+    color: var(--color-slate-500);
+    font-size: 0.9375rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1.5625rem;
+}
